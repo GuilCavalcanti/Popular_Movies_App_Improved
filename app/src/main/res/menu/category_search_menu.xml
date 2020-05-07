@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:name="actionOverflowMenuStyle"
+        android:id="@+id/action_sort_menu"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        android:title="@string/sort" >
+
+        <menu>
+
+            <item
+                android:id="@+id/action_sort_by_popularity"
+                android:title="@string/sort_by_popularity" />
+
+            <item
+                android:id="@+id/action_sort_by_rating"
+                android:title="@string/sort_by_rating" />
+
+            <item
+                android:id="@+id/action_sort_by_favorite"
+                android:title="@string/sort_by_favorite" />
+
+        </menu>
+    </item>
+
+</menu>
